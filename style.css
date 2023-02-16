@@ -109,3 +109,17 @@ body {
 .bottom-card-text {
     color: gray;
 }
+
+@keyframes animate {
+    0% {
+        transform: rotateX(0deg);
+    }
+
+    50% {
+        transform: rotateX(95deg);
+    }
+
+    100% {
+        transform: rotateX(0deg);
+    }
+}
